@@ -1,3 +1,17 @@
+# HI,
+I am Barath Kumar S 
+
+# Covid Vaccination Booking
+
+## ADMIN DETAILS
+Admin UserName : Admin@gmail.com
+Admin Password:  12345678
+
+## USER DETAILS OR SIGNUP
+UserName :  Barath@gmail.com
+Password :  12345678
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
