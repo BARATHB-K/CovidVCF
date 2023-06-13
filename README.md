@@ -11,6 +11,9 @@ Admin Password:  12345678
 UserName :  Barath@gmail.com
 Password :  12345678
 
+### `serrver-folder`
+For server-side communication I used Node J and Monogo DB as DataBase
+
 
 # Getting Started with Create React App
 
