@@ -1,0 +1,62 @@
+.auth-inner {
+    width: 100%;
+    height: 100%;
+}
+
+
+.auth-inner {
+    width: 750px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all 0.3s;
+
+}
+
+.auth-inner h2 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+.auth-inner label {
+
+    font-weight: 500;
+    font-family: "Fira Sans", sans-serif;
+    font-size: large;
+}
+
+.bt {
+    background-color: #4c5baf;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.inside {
+    text-align: left;
+    justify-content: center;
+    padding-bottom: 25px;
+
+}
+
+.form-control {
+
+    border-color: #167bff;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+
+    border-radius: 4px;
+    box-sizing: border-box;
+}
