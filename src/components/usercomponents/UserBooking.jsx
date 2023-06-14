@@ -23,13 +23,13 @@ function UserBooking() {
             .then(() => console.log("Dosage"));
     };
 
-    const idv = String(id);
+
 
     const handleSignUp = (e) => {
         e.preventDefault();
         sendRequest().then(() => console.log("updated"));
 
-        axios.post('https://covid-vaccine-ch76.vercel.app/covidv/user/book-slot', { idv, centre, date })
+        axios.post('http://localhost:5000/covidv/user/book-slot', { date })
             .then((data) => {
 
                 console.log(data, "Booking");
@@ -57,7 +57,7 @@ function UserBooking() {
                         <h2>BOOKING VACCINE</h2>
                         <div>
                             <div className="inside">
-                                <label>CENTER:</label>
+                                <label>Name:</label>
                                 <input className="form-control" type="text" value={centre} onChange={(e) => setCenter(e.target.value)} required />
                             </div>
                         </div>
