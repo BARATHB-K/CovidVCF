@@ -29,7 +29,7 @@ function UserBooking() {
         e.preventDefault();
         sendRequest().then(() => console.log("updated"));
 
-        axios.post('http://localhost:5000/covidv/user/book-slot', { date })
+        axios.post('https://covid-vaccine-ch76.vercel.app/covidv/user/book-slot', { date })
             .then((data) => {
 
                 console.log(data, "Booking");
